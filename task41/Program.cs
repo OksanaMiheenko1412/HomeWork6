@@ -25,5 +25,14 @@ int[] array = new int[n];
 InputArray(array);
 Console.WriteLine($"Исходный массив: [{string.Join(", ", array)}]");
 Console.WriteLine(ReleaseArray(array));
-
+//  вариант решения из лекции
+//Console.Clear();
+//string[] numbers = Console.ReadLine().Split(" ");
+//int count = 0;
+//foreach (string i in numbers)
+//{
+//   if (int.Parse(i) > 0)
+//        count++;
+//} 
+//Console.WriteLine(count);
 

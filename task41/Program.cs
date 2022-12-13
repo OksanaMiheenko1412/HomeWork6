@@ -25,7 +25,7 @@ int[] array = new int[n];
 InputArray(array);
 Console.WriteLine($"Исходный массив: [{string.Join(", ", array)}]");
 Console.WriteLine(ReleaseArray(array));
-//  вариант решения из лекции
+//  вариант решения из семинара7
 //Console.Clear();
 //string[] numbers = Console.ReadLine().Split(" ");
 //int count = 0;
